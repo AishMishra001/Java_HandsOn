@@ -19,12 +19,13 @@ public class NonPrimitiveDT {
 
     // IN JAVA STRINGS ARE IMMUTABLE ---  That is why we have to store the replace char string in a new string  
     String name4 = name1.replace('a','l');
-    System.out.println(name1) ; 
+    System.out.println(name4) ; 
 
     // substring : 
 
+    String name5 = name1.substring(1,3);
     
-
+    System.out.println(name5) ;
 
     
   }
